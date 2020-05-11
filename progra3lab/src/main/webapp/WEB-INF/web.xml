@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Controlador</servlet-name>
+  	<display-name>Controlador</display-name>
+  	<description></description>
+  	<servlet-class>com.marlon.controler.Controlador</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ControladorR</servlet-name>
+  	<display-name>ControladorR</display-name>
+  	<description></description>
+  	<servlet-class>com.marlon.controler.ControladorR</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ControladorBusqueda</servlet-name>
+  	<display-name>ControladorBusqueda</display-name>
+  	<description></description>
+  	<servlet-class>com.marlon.controler.ControladorBusqueda</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ControladorvistaHisto</servlet-name>
+  	<display-name>ControladorvistaHisto</display-name>
+  	<description></description>
+  	<servlet-class>com.marlon.controler.ControladorvistaHisto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Controlador</servlet-name>
+  	<url-pattern>/Controlador</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ControladorR</servlet-name>
+  	<url-pattern>/ControladorR</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ControladorBusqueda</servlet-name>
+  	<url-pattern>/ControladorBusqueda</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ControladorvistaHisto</servlet-name>
+  	<url-pattern>/ControladorvistaHisto</url-pattern>
+  </servlet-mapping>
+</web-app>
