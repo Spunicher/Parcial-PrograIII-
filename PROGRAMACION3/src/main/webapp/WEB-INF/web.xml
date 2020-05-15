@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Controladorr1</servlet-name>
+  	<display-name>Controladorr1</display-name>
+  	<description></description>
+  	<servlet-class>Controlador1.Controladorr1</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Controlador2</servlet-name>
+  	<display-name>Controlador2</display-name>
+  	<description></description>
+  	<servlet-class>Controlador1.Controlador2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Controladorr1</servlet-name>
+  	<url-pattern>/Controladorr1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Controlador2</servlet-name>
+  	<url-pattern>/Controlador2</url-pattern>
+  </servlet-mapping>
+</web-app>
